@@ -1,0 +1,110 @@
+export const questionsData = {
+  js: [
+    { id: 1, text: "Which of the following is not a reserved word in JavaScript?", options: ["interface", "throws", "program", "short"], correctAnswer: "program" },
+    { id: 2, text: "What does `typeof null` return?", options: ["null", "object", "undefined", "number"], correctAnswer: "object" },
+    { id: 3, text: "Which method is used to add an element to the end of an array?", options: ["push()", "pop()", "shift()", "unshift()"], correctAnswer: "push()" },
+    { id: 4, text: "How do you declare a JavaScript variable?", options: ["var carName;", "variable carName;", "v carName;", "declare carName;"], correctAnswer: "var carName;" },
+    { id: 5, text: "Which operator is used to assign a value to a variable?", options: ["*", "-", "=", "x"], correctAnswer: "=" },
+    { id: 6, text: "What will the following code return: Boolean(10 > 9)", options: ["NaN", "false", "true", "undefined"], correctAnswer: "true" },
+    { id: 7, text: "How does a FOR loop start?", options: ["for (i = 0; i <= 5; i++)", "for (i <= 5; i++)", "for i = 1 to 5", "for (i = 0; i <= 5)"], correctAnswer: "for (i = 0; i <= 5; i++)" },
+    { id: 8, text: "Which event occurs when the user clicks on an HTML element?", options: ["onchange", "onmouseover", "onmouseclick", "onclick"], correctAnswer: "onclick" },
+    { id: 9, text: "How do you find the number with the highest value of x and y?", options: ["Math.max(x, y)", "Math.ceil(x, y)", "ceil(x, y)", "top(x, y)"], correctAnswer: "Math.max(x, y)" },
+    { id: 10, text: "Which JavaScript method is used to write HTML output?", options: ["document.write()", "console.log()", "window.alert()", "document.output()"], correctAnswer: "document.write()" }
+  ],
+  python: [
+    { id: 1, text: "Which keyword is used to create a function in Python?", options: ["func", "define", "def", "function"], correctAnswer: "def" },
+    { id: 2, text: "What data type is the object below? L = [1, 23, 'hello', 1]", options: ["list", "dictionary", "tuple", "array"], correctAnswer: "list" },
+    { id: 3, text: "Which of these is not a core data type in Python?", options: ["Lists", "Dictionary", "Tuples", "Class"], correctAnswer: "Class" },
+    { id: 4, text: "How do you insert COMMENTS in Python code?", options: ["//This is a comment", "#This is a comment", "/*This is a comment*/", "--This is a comment"], correctAnswer: "#This is a comment" },
+    { id: 5, text: "What is the correct file extension for Python files?", options: [".pyt", ".pyth", ".pt", ".py"], correctAnswer: ".py" },
+    { id: 6, text: "How do you create a variable with the numeric value 5?", options: ["x = 5", "x = int(5)", "Both of the above", "None of the above"], correctAnswer: "Both of the above" },
+    { id: 7, text: "What is the correct syntax to output the type of a variable or object in Python?", options: ["print(typeof(x))", "print(type(x))", "print(typeof x)", "print(typeOf(x))"], correctAnswer: "print(type(x))" },
+    { id: 8, text: "Which method can be used to return a string in upper case letters?", options: ["toUpperCase()", "upperCase()", "upper()", "uppercase()"], correctAnswer: "upper()" },
+    { id: 9, text: "Which of these collections defines a DICTIONARY?", options: ["{\"name\": \"apple\", \"color\": \"green\"}", "[\"apple\", \"banana\", \"cherry\"]", "(\"apple\", \"banana\", \"cherry\")", "{\"apple\", \"banana\", \"cherry\"}"], correctAnswer: "{\"name\": \"apple\", \"color\": \"green\"}" },
+    { id: 10, text: "Which of these collections defines a TUPLE?", options: ["{\"name\": \"apple\", \"color\": \"green\"}", "[\"apple\", \"banana\", \"cherry\"]", "(\"apple\", \"banana\", \"cherry\")", "{\"apple\", \"banana\", \"cherry\"}"], correctAnswer: "(\"apple\", \"banana\", \"cherry\")" }
+  ],
+  html: [
+    { id: 1, text: "What does HTML stand for?", options: ["Hyper Text Preprocessor", "Hyper Text Markup Language", "Hyper Tool Multi Language", "Hyperlink and Text Markup Language"], correctAnswer: "Hyper Text Markup Language" },
+    { id: 2, text: "Which tag is used for the largest heading?", options: ["<h6>", "<head>", "<heading>", "<h1>"], correctAnswer: "<h1>" },
+    { id: 3, text: "What is the correct HTML element for inserting a line break?", options: ["<br>", "<lb>", "<break>", "<tr>"], correctAnswer: "<br>" },
+    { id: 4, text: "What is the correct HTML for adding a background color?", options: ["<body bg=\"yellow\">", "<body style=\"background-color:yellow;\">", "<background>yellow</background>", "<body bgcolor=\"yellow\">"], correctAnswer: "<body style=\"background-color:yellow;\">" },
+    { id: 5, text: "Choose the correct HTML element to define important text", options: ["<strong>", "<b>", "<i>", "<important>"], correctAnswer: "<strong>" },
+    { id: 6, text: "Choose the correct HTML element to define emphasized text", options: ["<i>", "<italic>", "<em>", "<emp>"], correctAnswer: "<em>" },
+    { id: 7, text: "What is the correct HTML for creating a hyperlink?", options: ["<a href=\"http://www.w3schools.com\">W3Schools</a>", "<a name=\"http://www.w3schools.com\">W3Schools.com</a>", "<a url=\"http://www.w3schools.com\">W3Schools.com</a>", "<a>http://www.w3schools.com</a>"], correctAnswer: "<a href=\"http://www.w3schools.com\">W3Schools</a>" },
+    { id: 8, text: "Which character is used to indicate an end tag?", options: ["<", "/", "^", "*"], correctAnswer: "/" },
+    { id: 9, text: "How can you open a link in a new tab/browser window?", options: ["<a href=\"url\" target=\"new\">", "<a href=\"url\" new>", "<a href=\"url\" target=\"_blank\">", "<a href=\"url\" target=\"_window\">"], correctAnswer: "<a href=\"url\" target=\"_blank\">" },
+    { id: 10, text: "Which of these elements are all <table> elements?", options: ["<table><tr><tt>", "<table><tr><td>", "<table><head><tfoot>", "<thead><body><tr>"], correctAnswer: "<table><tr><td>" }
+  ],
+  css: [
+    { id: 1, text: "What does CSS stand for?", options: ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"], correctAnswer: "Cascading Style Sheets" },
+    { id: 2, text: "Where in an HTML document is the correct place to refer to an external style sheet?", options: ["In the <body> section", "At the end of the document", "In the <head> section", "Before the <html> tag"], correctAnswer: "In the <head> section" },
+    { id: 3, text: "Which HTML tag is used to define an internal style sheet?", options: ["<style>", "<script>", "<css>", "<link>"], correctAnswer: "<style>" },
+    { id: 4, text: "Which HTML attribute is used to define inline styles?", options: ["style", "styles", "font", "class"], correctAnswer: "style" },
+    { id: 5, text: "Which is the correct CSS syntax?", options: ["body {color: black;}", "{body:color=black;}", "body:color=black;", "{body;color:black;}"], correctAnswer: "body {color: black;}" },
+    { id: 6, text: "How do you insert a comment in a CSS file?", options: ["// this is a comment", "// this is a comment //", "/* this is a comment */", "' this is a comment"], correctAnswer: "/* this is a comment */" },
+    { id: 7, text: "Which property is used to change the background color?", options: ["bgcolor", "color", "background-color", "bg-color"], correctAnswer: "background-color" },
+    { id: 8, text: "How do you add a background color for all <h1> elements?", options: ["h1.all {background-color:#FFFFFF;}", "all.h1 {background-color:#FFFFFF;}", "h1 {background-color:#FFFFFF;}", "h1 {bgcolor:#FFFFFF;}"], correctAnswer: "h1 {background-color:#FFFFFF;}" },
+    { id: 9, text: "Which CSS property is used to change the text color of an element?", options: ["fgcolor", "color", "text-color", "font-color"], correctAnswer: "color" },
+    { id: 10, text: "Which CSS property controls the text size?", options: ["font-size", "text-style", "font-style", "text-size"], correctAnswer: "font-size" }
+  ],
+  react: [
+    { id: 1, text: "What is a component in React?", options: ["A styling framework", "A function or class that returns HTML", "A database wrapper", "A routing library"], correctAnswer: "A function or class that returns HTML" },
+    { id: 2, text: "Which hook is used for managing state in a functional component?", options: ["useEffect", "useReducer", "useState", "useContext"], correctAnswer: "useState" },
+    { id: 3, text: "What does JSX stand for?", options: ["JavaScript XML", "Java Syntax Extension", "JSON X", "JavaScript XHR"], correctAnswer: "JavaScript XML" },
+    { id: 4, text: "What is the correct syntax for creating a React component?", options: ["function myComponent() {}", "function MyComponent() {}", "create MyComponent() {}", "new MyComponent() {}"], correctAnswer: "function MyComponent() {}" },
+    { id: 5, text: "What is used to pass data to a component from outside?", options: ["setState", "render with arguments", "props", "PropTypes"], correctAnswer: "props" },
+    { id: 6, text: "What is the children prop?", options: ["A property that adds child components to state", "A property that lets you pass components as data to other components", "A property that lets you set an array as a property", "A property that lets you pass state to child components"], correctAnswer: "A property that lets you pass components as data to other components" },
+    { id: 7, text: "A copy of the 'real' DOM that is kept in memory is called what?", options: ["Virtual DOM", "Shadow DOM", "DOM", "React DOM"], correctAnswer: "Virtual DOM" },
+    { id: 8, text: "When setting state, what happens to the component?", options: ["It crashes", "It pauses", "It re-renders", "It unmounts"], correctAnswer: "It re-renders" },
+    { id: 9, text: "Which method in a React Component should you override to stop the component from updating?", options: ["componentDidUpdate", "componentDidMount", "shouldComponentUpdate", "componentWillUnmount"], correctAnswer: "shouldComponentUpdate" },
+    { id: 10, text: "What is used in React to keep track of a list of elements?", options: ["index", "Keys", "IDs", "Refs"], correctAnswer: "Keys" }
+  ],
+  node: [
+    { id: 1, text: "Which environment does Node.js run on?", options: ["Browser", "V8 Engine", "SpiderMonkey", "JVM"], correctAnswer: "V8 Engine" },
+    { id: 2, text: "How do you import a module in Node.js by default?", options: ["import module from 'module'", "require('module')", "include 'module'", "load('module')"], correctAnswer: "require('module')" },
+    { id: 3, text: "Which core module is used to create an HTTP server in Node.js?", options: ["fs", "path", "http", "url"], correctAnswer: "http" },
+    { id: 4, text: "What is NPM?", options: ["Node Project Manager", "Node Package Manager", "New Project Manager", "New Package Manager"], correctAnswer: "Node Package Manager" },
+    { id: 5, text: "Which of the following is true about Node.js?", options: ["Node.js is asynchronous and event-driven", "Node.js is single-threaded but highly scalable", "Node.js uses a non-blocking I/O model", "All of the above"], correctAnswer: "All of the above" },
+    { id: 6, text: "What is the default scope in Node.js applications?", options: ["Global", "Local", "Module", "Function"], correctAnswer: "Module" },
+    { id: 7, text: "Which of the following is not a built-in module in Node.js?", options: ["fs", "http", "express", "path"], correctAnswer: "express" },
+    { id: 8, text: "Which global object in Node.js gives information about the current execution process?", options: ["global", "process", "window", "document"], correctAnswer: "process" },
+    { id: 9, text: "How can you read a file synchronously in Node.js?", options: ["fs.readFile()", "fs.readFileSync()", "fs.read()", "fs.readSync()"], correctAnswer: "fs.readFileSync()" },
+    { id: 10, text: "What does the package.json file contain?", options: ["Metadata about the project", "Only dependencies", "JavaScript code", "HTML configuration"], correctAnswer: "Metadata about the project" }
+  ],
+  gk: [
+    { id: 1, text: "Which planet is known as the Red Planet?", options: ["Venus", "Mars", "Jupiter", "Saturn"], correctAnswer: "Mars" },
+    { id: 2, text: "Who wrote 'Hamlet'?", options: ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"], correctAnswer: "William Shakespeare" },
+    { id: 3, text: "What is the capital of Japan?", options: ["Beijing", "Seoul", "Bangkok", "Tokyo"], correctAnswer: "Tokyo" },
+    { id: 4, text: "What is the largest ocean on Earth?", options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"], correctAnswer: "Pacific Ocean" },
+    { id: 5, text: "In what year did the Titanic sink?", options: ["1912", "1922", "1905", "1898"], correctAnswer: "1912" },
+    { id: 6, text: "What is the chemical symbol for gold?", options: ["Go", "Ag", "Au", "Gd"], correctAnswer: "Au" },
+    { id: 7, text: "Which country is home to the kangaroo?", options: ["New Zealand", "South Africa", "Australia", "India"], correctAnswer: "Australia" },
+    { id: 8, text: "What is the tallest mountain in the world?", options: ["K2", "Mount Everest", "Mount Kilimanjaro", "Denali"], correctAnswer: "Mount Everest" },
+    { id: 9, text: "Who painted the Mona Lisa?", options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"], correctAnswer: "Leonardo da Vinci" },
+    { id: 10, text: "What is the hardest natural substance on Earth?", options: ["Gold", "Iron", "Diamond", "Quartz"], correctAnswer: "Diamond" }
+  ],
+  dsa: [
+    { id: 1, text: "Which data structure uses LIFO (Last In First Out)?", options: ["Queue", "Stack", "Tree", "Graph"], correctAnswer: "Stack" },
+    { id: 2, text: "Which data structure uses FIFO (First In First Out)?", options: ["Stack", "Queue", "Tree", "Array"], correctAnswer: "Queue" },
+    { id: 3, text: "What is the time complexity of binary search in a sorted array?", options: ["O(n)", "O(1)", "O(n log n)", "O(log n)"], correctAnswer: "O(log n)" },
+    { id: 4, text: "Which data structure is used for BFS (Breadth-First Search)?", options: ["Stack", "Queue", "Priority Queue", "Linked List"], correctAnswer: "Queue" },
+    { id: 5, text: "Which algorithm is used to find the shortest path in a weighted graph?", options: ["DFS", "BFS", "Dijkstra's Algorithm", "Kruskal's Algorithm"], correctAnswer: "Dijkstra's Algorithm" },
+    { id: 6, text: "What is a Full Binary Tree?", options: ["Every node has 0 or 2 children", "Every level is completely filled", "All leaves are at the same level", "A tree with maximum height"], correctAnswer: "Every node has 0 or 2 children" },
+    { id: 7, text: "What is the worst-case time complexity of QuickSort?", options: ["O(n log n)", "O(n)", "O(n^2)", "O(log n)"], correctAnswer: "O(n^2)" },
+    { id: 8, text: "Which sort is best for a nearly sorted array?", options: ["QuickSort", "MergeSort", "Insertion Sort", "Selection Sort"], correctAnswer: "Insertion Sort" },
+    { id: 9, text: "What does dynamic programming mainly help with?", options: ["Sorting", "Overlapping subproblems", "Memory allocation", "Graph traversal"], correctAnswer: "Overlapping subproblems" },
+    { id: 10, text: "A hash table uses what to compute an index into an array of buckets?", options: ["Sorting algorithm", "Hash function", "Binary search", "Linked List"], correctAnswer: "Hash function" }
+  ],
+  express: [
+    { id: 1, text: "What is Express.js?", options: ["A database", "A frontend framework", "A web application framework for Node.js", "A programming language"], correctAnswer: "A web application framework for Node.js" },
+    { id: 2, text: "Which method is used to define a route in Express?", options: ["app.route()", "app.get()", "Both A and B", "Neither"], correctAnswer: "Both A and B" },
+    { id: 3, text: "How do you start an Express server listening on port 3000?", options: ["app.listen(3000)", "server.start(3000)", "app.start(3000)", "express.listen(3000)"], correctAnswer: "app.listen(3000)" },
+    { id: 4, text: "What is middleware in Express?", options: ["A database driver", "Functions that have access to the request and response object", "A templating engine", "A routing module"], correctAnswer: "Functions that have access to the request and response object" },
+    { id: 5, text: "Which object represents the HTTP response that an Express app sends when it gets an HTTP request?", options: ["req", "res", "next", "app"], correctAnswer: "res" },
+    { id: 6, text: "How can you serve static files in Express?", options: ["express.static()", "app.serve()", "app.static()", "express.serve()"], correctAnswer: "express.static()" },
+    { id: 7, text: "Which of the following is NOT a valid Express route method?", options: ["app.get()", "app.post()", "app.put()", "app.fetch()"], correctAnswer: "app.fetch()" },
+    { id: 8, text: "How do you extract route parameters in Express?", options: ["req.body", "req.query", "req.params", "req.data"], correctAnswer: "req.params" },
+    { id: 9, text: "How do you handle 404 errors in Express?", options: ["app.use((req, res) => { res.status(404).send('Not Found') })", "app.error(404)", "app.catch(404)", "app.on('404')"], correctAnswer: "app.use((req, res) => { res.status(404).send('Not Found') })" },
+    { id: 10, text: "Which method sends a JSON response in Express?", options: ["res.send()", "res.json()", "res.format()", "res.end()"], correctAnswer: "res.json()" }
+  ]
+};
